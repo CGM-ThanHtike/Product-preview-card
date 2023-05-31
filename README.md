@@ -2,12 +2,12 @@
 
 **"Thanks for checking out this front-end coding challenge."**
 
--"This is my second challenge here.Implemented with pure html css.
--I used css variables for font sizes and colors for code flexibility.
--Grid for main layout and flex for some components.
--This time, I'm going with mobile first approach.
--"If you have any suggestions or feedback for my code, please feel free to comment."
-**I would greatly appreciate all feedback.**
+- This is my second challenge here.Implemented with pure html css.
+- I used css variables for font sizes and colors for code flexibility.
+- Grid for main layout and flex for some components.
+- This time, I'm going with mobile first approach.
+- "If you have any suggestions or feedback for my code, please feel free to comment."
+  **I would greatly appreciate all feedback.**
 
 ## Table of contents
 
@@ -27,8 +27,6 @@
 
 ### The challenge
 
-Users should be able to:
-
 The challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
 ### Screenshot
@@ -38,7 +36,7 @@ The challenge is to build out this product preview card component and get it loo
 ### Links
 
 - Solution URL: [Click to check my solution at Frontend Mentor]()
-- Live Site URL: [Click to check the live site]()
+- Live Site URL: [Click to check the live site](https://cgm-thanhtike.github.io/Product-preview-card-Frontend-Mentor/)
 
 ## My process
 
