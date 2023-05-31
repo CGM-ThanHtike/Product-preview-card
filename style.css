@@ -1,0 +1,134 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+/* variable font sizes */
+:root {
+  --fs-small: 0.75rem;
+  --fs-medium: 1.5rem;
+  --fs-large: 2rem;
+
+  --hsl-primary: hsl(158, 36%, 37%);
+  --hsl-bg-primary: hsl(30, 38%, 92%);
+  --hsl-neutral-100: hsl(0, 0%, 100%);
+  --hsl-neutral-500: hsl(228, 12%, 48%);
+  --hsl-neutral-800: hsl(212, 21%, 14%);
+}
+
+/* Utilities classes */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.ff-primary {
+  font-family: 'Fraunces', serif;
+}
+
+.fs-small {
+  font-size: var(--fs-small);
+}
+
+.fs-medium {
+  font-size: var(--fs-medium);
+}
+
+.fs-large {
+  font-size: var(--fs-large);
+}
+
+.color-primary {
+  color: var(--hsl-primary);
+}
+
+.bg-primary {
+  background: var(--hsl-bg-primary);
+}
+
+.bg-white {
+  background: var(--hsl-neutral-100);
+}
+
+.color-neutral-100 {
+  color: var(--hsl-neutral-100);
+}
+
+.color-neutral-500 {
+  color: var(--hsl-neutral-500);
+}
+
+.color-neutral-800 {
+  color: var(--hsl-neutral-800);
+}
+
+/* Mobile first */
+main {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+.card {
+  width: min(340px, calc(100%-2rem));
+  overflow: hidden;
+  border-radius: 0.75rem;
+  margin-inline: auto;
+}
+
+.card-content {
+  display: grid;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.card-content .primary-ttl {
+  font-size: var(--fs-small);
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.card-content .secondary-ttl {
+  line-height: 1;
+}
+
+.card-content .price-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-content .price-container .before-price {
+  text-decoration: line-through;
+}
+
+.card-content .btn {
+  display: inline-flex;
+  line-height: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--hsl-primary);
+  font-weight: 700;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-content .btn:hover {
+  background: hsl(158, 20%, 22%);
+}
+
+@media (min-width: 640px) {
+  .card {
+    display: grid;
+    width: 620px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-content {
+    padding: 2.125rem;
+    align-content: start;
+    gap: 1.5rem;
+  }
+}
