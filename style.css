@@ -64,11 +64,12 @@ body {
 main {
   display: grid;
   height: 100vh;
+  height: 100dvh;
   place-content: center;
 }
 
 .card {
-  width: min(340px, calc(100%-2rem));
+  max-width: 340px;
   overflow: hidden;
   border-radius: 0.75rem;
   margin-inline: auto;
@@ -123,6 +124,7 @@ main {
   .card {
     display: grid;
     width: 620px;
+    max-width: 100%;
     grid-template-columns: 1fr 1fr;
   }
 
